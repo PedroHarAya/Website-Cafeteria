@@ -4,12 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Página de Inicio</title>
+        <title>Coffe Shop</title>
 
         <!--Estillos CSS-->
           @vite(['resources/css/Estilos3.css', 'resources/js/Instrucciones.js'])
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
-
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
     </head>
   <body>
     <form action="{{ route('logout') }}" method="POST" class="logout-form">
@@ -18,6 +19,50 @@
             <img src="{{ Vite::asset('resources/images/salir.png') }}" alt="Cerrar sesión" title="Cerrar sesión">
         </button>
     </form>
-    
+    <header>
+      <div class="container-hero">
+        <div class="container-hero">
+          <div class="customer-support">
+            <i class="fa-solid fa-headset"></i>
+          <div class="content-customer-support">
+            <span class="text">Soporte al Cliente</span>
+            <span class="number">667-304-3145</span>
+          </div>
+         </div>
+           <div class="container-logo">
+            <i class="fa-solid fa-mug-hot"></i>
+            <h1 class="logo"><a href="/">Baristas</a></h1>
+          </div>
+           <div class="container-user">
+            <i class="fa-solid fa-user"></i>
+						<i class="fa-solid fa-basket-shopping"></i>
+           <div class="container-shopping-cart">
+            <span class="text">Carrito</span>
+            <span class="number">(0)</span>
+           </div>
+           </div>
+        </div>
+      </div>
+      <div class="container-navbar">
+        <nav class="navbar container">
+          <i class="fa-solid fa-bars"></i>
+          <ul class="menu">
+            <li><a href="" hraf="#">Inicio</a></li>
+            <li><a href="" hraf="#">Moca Helado</a></li>
+            <li><a href="" hraf="#">Expreso</a></li>
+            <li><a href="" hraf="#">Capuchino</a></li>
+            <li><a href="" hraf="#">Más</a></li>
+            <li><a href="" hraf="#">Blog</a></li>
+          </ul>
+
+          <form class="search-form">
+            <input type="search" placeholder="Buscar...">
+            <button class="btn-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>
