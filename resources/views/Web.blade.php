@@ -75,28 +75,28 @@
 
     <main class="main content">
         <section class="container container-features">
-            <div class="cart-feature">
+            <div class="card-feature">
                 <i class="fa-solid fa-plane-up"></i>
                 <div class="feature-content">
                     <span>Envio gratuito a nivel mundial</span>
                     <p>En pedido superior a $150</p>
                 </div>
             </div>
-            <div class="cart-feature">
+            <div class="card-feature">
                 <i class="fa-solid fa-wallet"></i>
                 <div class="feature-content">
                     <span>Contrareembolso</span>
                     <p>100% garantia de devolución de dinero</p>
                 </div>
             </div>
-            <div class="cart-feature">
+            <div class="card-feature">
                 <i class="fa-solid fa-gift"></i>
                 <div class="feature-content">
                     <span>Targeta regalo especial</span>
                     <p>Ofrece bonos especiales con regalo</p>
                 </div>
             </div>
-            <div class="cart-feature">
+            <div class="card-feature">
                 <i class="fa-solid fa-headset"></i>
                 <div class="feature-content">
                     <span>Soporte al Cliente 24/7</span>
