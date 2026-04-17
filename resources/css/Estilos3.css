@@ -24,11 +24,13 @@
     --primary-color: #c7a17a;
     --background-color: #f9f5f0;
     --dark-color: #151515;
+    --Color-fondo: #f9f5f0;
 }
 
 html{
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
+    background-color: var(--Color-fondo);
 }
 
 *{
@@ -41,6 +43,12 @@ html{
 .container{
     max-width: 120rem;
     margin: 0 auto;
+}
+
+.heading-1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
 }
 
 /*Header*/
@@ -269,7 +277,7 @@ html{
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: #e2e2e2;
+    background-color: #fff;
     border-radius: 1rem;
     padding: 1.5rem 0;
 }
@@ -295,4 +303,115 @@ html{
     color: #777;
     font-weight: 500;
 }
+
+/**********CATEGORIES**********/
+
+.top-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.container-categories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.card-category{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    gap: 2rem;
+}
+
+.category-moca{
+    background-image: linear-gradient(#00000080, #00000080), url('../images/moca-category.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.category-capuchino{
+    background-image: linear-gradient(#00000080, #00000080), url('../images/capuchino-category.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.category-expreso{
+    background-image: linear-gradient(#00000080, #00000080), url('../images/expreso-category.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-category p{
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.card-category p::after{
+    content: '';
+    width: 2.5rem;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.card-category span{
+    font-size: 1.6rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-category span:hover{
+    color: var(--primary-color);
+}
+
+/**********TOP PRODUCTS**********/
+
+.top-products{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.container-options{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container-options span{
+    color: #777;
+    background-color: #fff;
+    padding: .7rem 3rem;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.container-options span:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.container-options span.active{
+    background-color: var(--primary-color);
+    color: #fff;     
+}
+
 
