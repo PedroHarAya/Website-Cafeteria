@@ -133,7 +133,7 @@
                 <!-- Producto 1 -->
                 <div class="card-product">
                     <div class="container-img">
-                        <img src="images/cafe-irish.jpg" alt="cafe irish">
+                        <img src="images/cafe-irish.jpg" alt="cafe Irish">
                         <span class="discount">-13%</span>
                         <div class="button-group">
                             <span>
@@ -143,7 +143,7 @@
                                 <i class="fa-regular fa-heart"></i>
                             </span>
                             <span>
-                                <i class="fa-regular fa-code-compare"></i>
+                                <i class="fa-solid fa-code-compare"></i>
                             </span>
                         </div>
                     </div>
@@ -166,8 +166,8 @@
                 <!-- Producto 2 -->
                 <div class="card-product">
                     <div class="container-img">
-                        <img src="images/cafe-irish.jpg" alt="cafe irish">
-                        <span class="discount">-13%</span>
+                        <img src="images/cafe-ingles.jpg" alt="cafe inglés">
+                        <span class="discount">-22%</span>
                         <div class="button-group">
                             <span>
                                 <i class="fa-regular fa-eye"></i>
@@ -176,7 +176,7 @@
                                 <i class="fa-regular fa-heart"></i>
                             </span>
                             <span>
-                                <i class="fa-regular fa-code-compare"></i>
+                                <i class="fa-solid fa-code-compare"></i>
                             </span>
                         </div>
                     </div>
@@ -186,21 +186,21 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
                             <i class="fa-regular fa-star"></i>
                         </div>
-                        <h3>Café Irish</h3>
+                        <h3>Café Inglés</h3>
                         <span class="add-cart">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </span>
-                        <p class="price">$4.70 <span>$5.40</span></p>
+                        <p class="price">$5.70 <span>$7.30</span></p>
                     </div>
                 </div>
                 <!-- Producto 3 -->
                 <div class="card-product">
                     <div class="container-img">
-                        <img src="images/cafe-irish.jpg" alt="cafe irish">
-                        <span class="discount">-13%</span>
+                        <img src="images/cafe-australiano.jpg" alt="cafe Australiano">
+                        <span class="discount">-30%</span>
                         <div class="button-group">
                             <span>
                                 <i class="fa-regular fa-eye"></i>
@@ -209,7 +209,7 @@
                                 <i class="fa-regular fa-heart"></i>
                             </span>
                             <span>
-                                <i class="fa-regular fa-code-compare"></i>
+                                <i class="fa-solid fa-code-compare"></i>
                             </span>
                         </div>
                     </div>
@@ -220,20 +220,20 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
-                        <h3>Café Irish</h3>
+                        <h3>Café Australiano</h3>
                         <span class="add-cart">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </span>
-                        <p class="price">$4.70 <span>$5.40</span></p>
+                        <p class="price">$4.70 <span>$6.70</span></p>
                     </div>
                 </div>
                 <!-- Producto 4 -->
                 <div class="card-product">
                     <div class="container-img">
-                        <img src="images/cafe-irish.jpg" alt="cafe irish">
-                        <span class="discount">-13%</span>
+                        <img src="images/cafe-helado.jpg" alt="cafe Helado">
+                        <span class="discount">-25%</span>
                         <div class="button-group">
                             <span>
                                 <i class="fa-regular fa-eye"></i>
@@ -242,7 +242,7 @@
                                 <i class="fa-regular fa-heart"></i>
                             </span>
                             <span>
-                                <i class="fa-regular fa-code-compare"></i>
+                                <i class="fa-solid fa-code-compare"></i>
                             </span>
                         </div>
                     </div>
@@ -255,11 +255,11 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-regular fa-star"></i>
                         </div>
-                        <h3>Café Irish</h3>
+                        <h3>Café Helado</h3>
                         <span class="add-cart">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </span>
-                        <p class="price">$4.70 <span>$5.40</span></p>
+                        <p class="price">$3.38<span>$4.50</span></p>
                     </div>
                 </div>
             </div>
