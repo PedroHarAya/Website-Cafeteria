@@ -597,4 +597,44 @@ html{
 
     /*BLOGS*/
 
-    
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .container-blogs{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+    }
+
+    .card-blog{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .card-blog .container-img{
+        border-radius: 2rem;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .button-group-blog{
+        position: absolute;
+        bottom: 1.5rem;
+        right: -2.5rem;
+
+        display: flex;
+        gap: 0.7rem;
+        z-index: -1;
+        transition: all .3s ease;
+    }
+
+    .card-blog:hover .button-group-blog{
+        z-index: 0;
+        right: 1.5rem;
+    }
+

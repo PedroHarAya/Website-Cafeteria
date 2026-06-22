@@ -357,8 +357,8 @@
                 <!-- Producto 3 -->
                 <div class="card-product">
                     <div class="container-img">
-                        <img src="images/cafe-australiano.jpg" alt="cafe Australiano">
-                        <span class="discount">-30%</span>
+                        <img src="images/cafe-viena.jpg" alt="cafe Viena">
+                        <span class="discount">-35%</span>
                         <div class="button-group">
                             <span>
                                 <i class="fa-regular fa-eye"></i>
@@ -380,18 +380,18 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </div>
-                        <h3>Café Australiano</h3>
+                        <h3>Café Viena</h3>
                         <span class="add-cart">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </span>
-                        <p class="price">$4.70 <span>$6.70</span></p>
+                        <p class="price">$5.20<span>$8.00</span></p>
                     </div>
                 </div>
                 <!-- Producto 4 -->
                 <div class="card-product">
                     <div class="container-img">
-                        <img src="images/cafe-helado.jpg" alt="cafe Helado">
-                        <span class="discount">-25%</span>
+                        <img src="images/cafe-liqueurs.jpg" alt="cafe Liqueurs">
+                        <span class="discount">-30%</span>
                         <div class="button-group">
                             <span>
                                 <i class="fa-regular fa-eye"></i>
@@ -413,15 +413,93 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-regular fa-star"></i>
                         </div>
-                        <h3>Café Helado</h3>
+                        <h3>Café Liqueurs</h3>
                         <span class="add-cart">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </span>
-                        <p class="price">$3.38<span>$4.50</span></p>
+                        <p class="price">$4.55<span>$6.50</span></p>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="container blogs">
+            <h1 class="heading-1">últimos Blogs</h1>
+
+            <div class="container-blogs">
+                <!-- Blog 1 -->
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="images/blog-1.jpg" alt="Imagen Blog 1">
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>Lorem, ipsum dolor sit</h3>
+                        <span>22 junio 2026</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quisquam, quod.
+                        </p>
+                        <div class="btn-">Leer más</div>
+                    </div>
+                </div>
+                <!-- Blog 2 -->
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="images/blog-2.jpg" alt="Imagen Blog 2">
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>Lorem, ipsum dolor sit</h3>
+                        <span>22 junio 2026</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quisquam, quod.
+                        </p>
+                        <div class="btn-">Leer más</div>
+                    </div>
+                </div>
+                <!-- Blog 3 -->
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="images/blog-3.jpg" alt="Imagen Blog 3">
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>Lorem, ipsum dolor sit</h3>
+                        <span>22 junio 2026</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quisquam, quod.
+                        </p>
+                        <div class="btn-">Leer más</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
     </main>
 </body>
 
