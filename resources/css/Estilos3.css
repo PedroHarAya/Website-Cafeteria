@@ -638,3 +638,70 @@ html{
         right: 1.5rem;
     }
 
+    .button-group-blog span{
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 50%;
+        transition: all .4s ease;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button-group-blog span i{
+        font-size: 1.3rem;
+    }
+
+    .button-group-blog span:hover{
+        background-color: var(--primary-color);
+    }
+
+    .button-group-blog span:hover i{
+        color: #fff;
+    }
+    
+    .content-blog h3{
+        font-size: 1.8rem;
+        margin-bottom: 1.7rem;
+        color: var(--dark-color);
+        font-weight: 500;
+    }
+
+    .content-blog h3:hover{
+        color: var(--primary-color);
+        cursor: pointer;
+    }
+
+    .content-blog span{
+        color: var(--primary-color);
+        font-size: 1.3rem;
+    }
+
+    .content-blog p{
+        margin-top: 1rem;
+        font-size: 1.4rem;
+        color: #777;
+    }
+
+    .btn-read-more{
+        padding: 1rem 3rem;
+        background-color: var(--primary-color);
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        border-radius: 2rem;
+        margin: 3rem 0 5rem;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .btn-read-more:hover{
+        background-color: var(--dark-color);
+    }
+
+    /*FOOTER*/
+
+    .footer{
+        background-color: var(--primary-color);
+    }

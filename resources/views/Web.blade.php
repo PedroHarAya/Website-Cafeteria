@@ -447,7 +447,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Quisquam, quod.
                         </p>
-                        <div class="btn-">Leer más</div>
+                        <div class="btn-read-more">Leer más</div>
                     </div>
                 </div>
                 <!-- Blog 2 -->
@@ -470,7 +470,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Quisquam, quod.
                         </p>
-                        <div class="btn-">Leer más</div>
+                        <div class="btn-read-more">Leer más</div>
                     </div>
                 </div>
                 <!-- Blog 3 -->
@@ -493,7 +493,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Quisquam, quod.
                         </p>
-                        <div class="btn-">Leer más</div>
+                        <div class="btn-read-more">Leer más</div>
                     </div>
                 </div>
             </div>
@@ -501,6 +501,36 @@
         </section>
 
     </main>
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            Dirección: 123 Calle Principal, Ciudad, País
+                        </li>
+                        <li>
+                            Teléfono: 234-567-8901
+                        </li>
+                        <li>
+                            fax: 34567890
+                        </li>
+                        <li>
+                            Email: baristas@support.com
+                        </li>
+                    </ul>
+                    <div class="social-icons">
+                        <span> <i class="fa-brands fa-square-facebook"></i></span>
+                        <span> <i class="fa-brands fa-square-x-twitter"></i></span>
+                        <span> <i class="fa-brands fa-youtube"></i></span>
+                        <span> <i class="fa-brands fa-pinterest"></i></span>
+                        <span> <i class="fa-brands fa-square-instagram"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
