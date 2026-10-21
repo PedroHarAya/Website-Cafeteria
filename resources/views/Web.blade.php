@@ -521,13 +521,63 @@
                         </li>
                     </ul>
                     <div class="social-icons">
-                        <span> <i class="fa-brands fa-square-facebook"></i></span>
-                        <span> <i class="fa-brands fa-square-x-twitter"></i></span>
-                        <span> <i class="fa-brands fa-youtube"></i></span>
-                        <span> <i class="fa-brands fa-pinterest"></i></span>
-                        <span> <i class="fa-brands fa-square-instagram"></i></span>
+                        <span class="facebook"> <i class="fa-brands fa-square-facebook"></i></span>
+                        <span class="twitter"> <i class="fa-brands fa-square-x-twitter"></i></span>
+                        <span class="youtube"> <i class="fa-brands fa-youtube"></i></span>
+                        <span class="pinterest"> <i class="fa-brands fa-pinterest"></i></span>
+                        <span class="instagram"> <i class="fa-brands fa-square-instagram"></i></span>
                     </div>
                 </div>
+
+                <div class="information">
+                    <p class="title-footer">
+                        Información
+                    </p>
+                    <ul>
+                        <li><a href="#">Acerca de nosotros</a></li>
+                        <li><a href="#">Información Delivery</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Contactános</a></li>
+                    </ul>
+                </div>
+
+                <div class="my-account">
+                    <p class="title-footer">
+                        Mi Cuenta
+                    </p>
+
+                    <ul>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Historial de pedidos</a></li>
+                        <li><a href="#">Lista de deseos</a></li>
+                        <li><a href="#">Boletín</a></li>
+                        <li><a href="#">Reembolsos</a></li>
+                    </ul>
+                </div>
+
+                <div class="newsletter">
+                    <p class="title-footer">
+                        Boletín informativo
+                    </p>
+
+                    <div class="content">
+                        <p>
+                            Suscribete a nuestros boletines ahora y mantente al
+                            dia con nuevas colecciones y ofertas exclusivas.
+                        </p>
+                        <input type="email" placeholder="Ingresa tu correo aquí...">
+                        <button>Suscríbete</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Desarrollado por Tecnosof para el mundo del café. &copy; 2026 Todos los derechos reservados.
+                </p>
+
+                <img src="images/payment.png" alt="Pagos">
             </div>
         </div>
     </footer>
